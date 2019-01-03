@@ -1,0 +1,162 @@
+.containe{
+	display: flex;
+	border-bottom: 5px solid orange;
+	border-radius: 10px;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	padding: 5px;
+	background-image: url('gambar/bgs.png');
+	
+}
+.parent {
+      width:99%;
+      height:auto;
+      min-height:100px;
+      color: black;
+      font-size:21px;
+	  margin-top: 60px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+    }
+p.form{
+	color: #333300;            /*warna teks*/
+	font-family: arial;        /*jenis font arial*/
+	font-size: 17;             /*ukuran font 17*/
+	text-align: left;          /*posisi teks kiri*/
+	font-weight: bold;         /*font tebal*/
+}
+
+
+
+*{
+	
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('gambar/backb.jpg');
+	font-family: 'Helvetica', arial, sans-serif;
+
+	font-size: 15px;
+}
+
+p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+a:hover{
+	color: white;
+}
+
+div>.containe:hover{
+	background-image: url('gambar/bno.png');
+}
+
+
+.container{
+	max-width: 100%;
+	background-image: url('gambar/backb.jpg');
+	overflow: hidden;
+}
+
+
+.header{
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	align-content: center;
+	background-image: url('gambar/bgs.png');
+}
+
+	.left{
+		width: 33%;
+		padding: 10px;
+		margin-top: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 33%;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+		
+
+		.middle a{
+			font-weight: bold;
+		}
+
+	.right{
+		width: 27%;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+
+	
+
+.footer{
+	clear: both;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+	}
+	.middle {
+		width: auto;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}

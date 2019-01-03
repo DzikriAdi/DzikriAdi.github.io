@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validasi() {
+	var xnim = document.myForm.nim.value;
+    if (xnim == "") {
+        alert("Kode Dokter tidak boleh kosong....");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+
+<form  name="myForm" action="lihat.php" method="post" onSubmit="return validasi()">
+Kode Dokter : <input type="text" name="nim">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

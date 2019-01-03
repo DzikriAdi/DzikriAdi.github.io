@@ -1,0 +1,40 @@
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+}
+.molo{
+	width: 100%;
+}
+.judul{
+	font-family: arial;
+	font-size: 16px;
+	color: black;
+}
+.foont{
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+}
+.ket{
+	
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+}
+
+html, body{
+    background-color: none;
+}
+
+.container > div:nth-child(1n){
+    background-color: #ED1B24;
+}
+
+.container > div:nth-child(2n){
+    background-color: #ED1B24;
+}
+.container > div:nth-child(3n){
+    background-color: #ED1B24;
+}

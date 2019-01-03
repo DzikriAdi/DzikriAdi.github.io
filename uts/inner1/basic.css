@@ -1,0 +1,37 @@
+.container > div{
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    font-size: 2em;
+}
+.molo{
+	margin: 10px;
+	width: 100%;
+}
+.judul{
+	font-family: arial;
+	font-size: 16px;
+	color: black;
+}
+.ket{
+	
+	font-family: arial;
+	font-size: 14px;
+	color: black;
+}
+
+html, body{
+    background-color: none;
+}
+
+.container > div:nth-child(1n){
+    background-color: #fff;
+}
+
+.container > div:nth-child(2n){
+    background-color: #fff;
+}
+
+.container > div:nth-child(3n){
+    background-color: #fff;
+}

@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title>FORM</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="icon" type="image/png" href="gambar/mini.png">
+	</head>
+	
+	<body background="backb.jpg">
+		<form  action="register.php" method="GET">
+			<center>
+			<table>
+				<tr height="30"><tr>
+			</table>
+			<table  width="500" border="1" align="center"  cellpadding="0" cellspacing="0"  bgcolor="#000" style="padding: 2px" style="color: #00008B">
+				
+				<tr align="center">
+					<td  height="40" colspan="5"  background="gambar/bgs1.png"><font face="arial" size="5" color="#FFFFFF">
+					<b>Pendaftaran Mahasiswa Baru</b></font></td>
+					</tr>
+				<tr>
+				<td  bgcolor="#FFFFFF"><table width="452"  border="0" align="center" cellpadding="5"  cellspacing="0">
+				<tr >
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Nama</p></td>
+					<td width="1%"><b>:</td>
+					<td width="10%"><input size="45" type="text" name="nama" /></td>
+					<td width="3%"></td>
+				<tr>
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Dari</p></td>
+					<td width="1%"><b>:</td> 
+					<td width="10%">
+						<input type="checkbox" name="sekolah" value="SMA" checked />SMA
+						<input type="checkbox" name="sekolah" value="SMK"/>SMK
+					</td>
+					<td width="3%"></td>
+				</tr>
+				
+
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Jenis Kelamin</p></td>
+					<td width="1%"><b>:</td> 
+					<td width="10%">
+						<input type="radio" name="jenis_kelamin" value="Laki-laki" checked />Laki-laki
+						<input type="radio" name="jenis_kelamin" value="Perempuan"/>Perempuan
+					</td>
+					<td width="3%"></td>
+				</tr>
+	
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Keahlian</p></td>
+					<td width="1%"><b>:</td> 
+					<td width="10%">
+						<input type="checkbox" name="keahlian" value="Cracking"/>Cracking
+						<input type="checkbox" name="keahlian" value="Game"/>Game&nbsp&nbsp&nbsp
+						<input type="checkbox" name="keahlian" value="Deface"/>Deface
+						<input type="checkbox" name="keahlian" value="AGC_Web"/>AGC Web<br/>
+						<input type="checkbox" name="keahlian" value="Coding" checked />Coding&nbsp&nbsp&nbsp
+						<input type="checkbox" name="keahlian" value="Trading"/>Trading
+						<input type="checkbox" name="keahlian" value="Hacking"/>Hacking
+					</td>
+					<td width="3%"></td>
+				</tr>
+				
+				
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Tempat Lahir</p></td>
+					<td width="1%"><b>:</td>
+					<td width="10%"> 
+						<select name="tempat_lahir">
+						<option value="Jakarta">Jakarta</option>
+						<option value="Semarang" selected>Semarang</option>
+						<option value="Surabaya" >Surabaya</option>
+						</select>
+					</td>
+					<td width="3%"></td>
+				</tr>
+				
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Alamat Lengkap</p></td>
+					<td width="1%"><b>:</td>
+					<td width="10%"><textarea name="aleng" rows="2" cols="50"></textarea></td>
+					<td width="3%"></td>
+				</tr>
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Deskripsi Diri</p></td>
+					<td width="1%"><b>:</td>
+					<td width="10%"><textarea name="deskripsi" rows="6" cols="50"></textarea></td>
+					<td width="3%"></td>
+				</tr>
+				
+				<tr height="30" >
+					<td></td>
+				</tr>
+				<tr>
+					<td width="15%"></td>
+					<td width="20%"><p class="form">Password</p></td>
+					<td width="1%"><b>:</td>
+					<td width="10%"><input size="45" type="password" name="password" /></td>
+					<td width="3%"></td>
+				</tr>
+				
+				<tr align="middle">
+					<td></td>
+					<td></td>
+					<td align="right"><input size="40px" type="submit" value="Enter"></td>
+					<td align="left"><input size="40px" type="Reset" value="Reset"></td>
+					
+				</tr>
+			</table>
+			</center>
+		</form>
+	</body>
+</html>

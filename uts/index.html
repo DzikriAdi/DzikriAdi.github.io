@@ -1,0 +1,110 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beranda - Bank Jateng</title>
+	<link rel="icon" type="image/png" href="gambar/minilogo.png">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/aa.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/basic.css">
+	<link rel="stylesheet" href="css/wo.css">
+	
+	<script src="js/min.js"></script>
+	<script src="js/slide.js"></script>
+	
+	<div class="topnav" id="myTopnav">
+	<a href="index.html" class="active" title="Bank Jateng"><img src="gambar/logo.png"></a>
+	<a href="#" class="menu" title="PRODUK & LAYANAN SARANA">PERSONAL</a>
+	<a href="#" class="menu" title="PRODUK & LAYANAN SARANA">BISNIS</a>
+	<a href="#" class="menu" title="PROFIL  HUBUNGAN INVESTOR  MANAGEMENT">TENTANG KAMI</a>
+	<a href="#" class="menu" title="LOWONGAN KERJA MAGANG DHARMA">KARIR</a>
+	<a href="syariah.bankjateng.co.id" class="menu syariah" title="Bank Jateng" >SYARIAH</a>
+	<a href="#" class="menu"><img src="gambar/id.png" title="INA" scale="0"><img src="gambar/garis.png">
+	<img src="gambar/usa.png" title="USA" scale="0"></a>
+	<a href="#icon" class="icon" onclick="myFunction()"><img src="gambar/mini.png">
+		<i class="fa fa-bars"></i></a>
+	</div>
+		
+</head>
+<body background="gambar/back.png" >
+
+
+
+<div class="container" align="center" >
+            <div class="header cont1 border"><input class="butcol ukuransear place" type="text" placeholder="Cari Disini" name="search" >
+      <button type="submit" class="butcol butcoll"><img src="gambar/search.png"></button></div>
+	  
+	  
+            <div class="menuu cont">
+				<div class="w3-content w3-display-container">
+					<div class="text-block">
+					<p class="pelajari">Pelajari Lebih Lanjut</p>
+					</div>
+				<img class="mySlides" src="gambar/1.jpeg" style="width:100%;">
+				<img class="mySlides" src="gambar/2.jpg" style="width:100%;">
+				<img class="mySlides" src="gambar/3.png" style="width:100%;">
+				<img class="mySlides" src="gambar/4.jpg" style="width:100%;">
+				<img class="mySlides" src="gambar/5.jpg" style="width:100%;">
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+			</div>
+            <div class="content cont">
+				<a href="tab/tab1.html" target="target"><img class="menu4" src="gambar/a1.png"></a>
+				<a href="tab/tab2.html" target="target"><img class="menu4" src="gambar/a2.png"></a>
+				<a href="tab/tab3.html" target="target"><img class="menu4" src="gambar/a3.png"></a>
+				<a href="tab/tab4.html" target="target"><img class="menu4" src="gambar/a4.png"></a>
+			
+			
+			</div>
+			
+            <div class="content1 cont"><iframe frameBorder="0" width="100%" src="tab/tab1.html" name="target"></iframe></div>
+			
+            <div class="content2 menu3 cont">
+				<div>
+					<font color="grey" size="4px">BERITA KEGIATAN PROMO</font>
+					<font color="grey"  size="4px">Lainnya</font>
+				</div>
+			</div>
+			
+            <div class="content3 cont">
+				<iframe frameBorder="0" width="100%" src="inner1/index.html"></iframe>
+			</div>
+			
+            <div class="content4 cont">
+				<iframe frameBorder="0" width="100%" src="inner2/index.html"></iframe>
+			</div>
+			
+            <div class="content5">
+				<iframe frameBorder="0" width="100%" src="inner3/index.html"></iframe>
+			</div>
+			
+            <div class="content6">
+				<iframe frameBorder="0" width="100%" src="inner4/index.html"></iframe>
+			</div>
+			
+            <div class="footer"><font size="4px">Copyright ©2018 Dzikri Adi S. All rights reserved.<font></div>
+
+			
+			</div>
+	
+			<script>var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+				}
+
+			function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				}
+				x[slideIndex-1].style.display = "block";  
+				}
+</script>
+</body>
+</html>
